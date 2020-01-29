@@ -41,9 +41,16 @@ body {
 }
 
 /******************************************************** form styling */
+.contact_form {
+  display: flex;
+  justify-content: space-around;
+
+}
+
 .form {
   width: 50%;
   background-color: #CCCCFF;
+  padding: 3rem 2rem;
 }
 
 .label {
