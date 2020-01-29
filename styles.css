@@ -3,5 +3,27 @@
 }
 
 body {
+  background-color: #3333FF;
+}
+
+.form {
+  width: 50%;
   background-color: #CCCCFF;
+}
+
+.label {
+  color: #E4E4E4;
+}
+
+.name {
+  width: 50%;
+}
+
+.email {
+  width: 50%;
+}
+
+.message {
+  width: 50%;
+  height: 30vh;
 }
