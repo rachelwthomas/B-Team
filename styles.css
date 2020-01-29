@@ -6,6 +6,11 @@ body {
   background-color: #3333FF;
 }
 
+.navigation-bar {
+  padding: 10px;
+  background-color: #323D4B;
+}
+
 .navigation-links {
   text-align: left;
 
@@ -14,8 +19,18 @@ body {
 
 .navigation-links span {
   margin-right: 15px;
+  font-weight: bold;
 }
 
+.navigation-links input {
+  background-color: #525762;
+  border: none;
+  border: solid 1px #FFF;
+}
+
+.navigation-links ::placeholder {
+  color: #FFF;
+}
 
 
 .form {
