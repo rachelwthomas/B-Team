@@ -78,9 +78,8 @@ body {
 /******************************************************** footer styling */
 
 .footer-container {
-  position: absolute;
-  width: 100%;
-  top: 100%;
+  display: flex;
+  justify-content: space-between;
 
 }
 .footer-links span{
