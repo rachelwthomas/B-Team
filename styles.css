@@ -3,14 +3,45 @@
 }
 
 body {
-  background-color: #AAAAFF;
+  background-color: #3333FF;
+}
+
+.page-content {
+  position: relative;
 }
 
 
+/************************************************* navigation bar styling */
+.navigation-bar {
+  padding: 10px;
+  background-color: #323D4B;
+}
 
+.navigation-links {
+  text-align: left;
+
+
+}
+
+.navigation-links span {
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.navigation-links input {
+  background-color: #525762;
+  border: none;
+  border: solid 1px #FFF;
+}
+
+.navigation-links ::placeholder {
+  color: #FFF;
+}
+
+/******************************************************** form styling */
 .form {
   width: 50%;
-  background-color: #9999FF;
+  background-color: #CCCCFF;
 }
 
 .label {
@@ -28,4 +59,23 @@ body {
 .message {
   width: 50%;
   height: 30vh;
+}
+
+.response {
+  height: 20px;
+}
+
+
+/******************************************************** footer styling */
+
+.footer-container {
+  position: absolute;
+  width: 100%;
+  top: 100%;
+
+}
+.footer-links span{
+  display: inline-block;
+
+
 }
