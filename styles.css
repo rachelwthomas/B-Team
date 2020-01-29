@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: #AAA;
+}
+
 body {
   background-color: #3333FF;
 }
@@ -33,7 +38,8 @@ body {
 .navigation-links input {
   background-color: #525762;
   border: none;
-  border: solid 1px #FFF;
+  border: solid 1px #AAA;
+  color: #AAA;
 }
 
 .navigation-links ::placeholder {
@@ -51,10 +57,7 @@ body {
   width: 50%;
   background-color: #CCCCFF;
   padding: 3rem 2rem;
-}
-
-.label {
-  color: #E4E4E4;
+  margin-top: 5rem;
 }
 
 .name {
