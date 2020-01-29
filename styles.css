@@ -6,6 +6,21 @@ body {
   background-color: #AAAAFF;
 }
 
+.navigation-links {
+  text-align: left;
+
+
+}
+
+.navigation-links span {
+  margin-right: 15px;
+}
+
+
+
+
+
+
 .form {
   width: 50%;
   background-color: #9999FF;
