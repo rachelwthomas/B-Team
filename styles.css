@@ -6,6 +6,12 @@ body {
   background-color: #3333FF;
 }
 
+.page-content {
+  position: relative;
+}
+
+
+/************************************************* navigation bar styling */
 .navigation-bar {
   padding: 10px;
   background-color: #323D4B;
@@ -32,7 +38,7 @@ body {
   color: #FFF;
 }
 
-
+/******************************************************** form styling */
 .form {
   width: 50%;
   background-color: #CCCCFF;
@@ -53,4 +59,23 @@ body {
 .message {
   width: 50%;
   height: 30vh;
+}
+
+.response {
+  height: 20px;
+}
+
+
+/******************************************************** footer styling */
+
+.footer-container {
+  position: absolute;
+  width: 100%;
+  top: 100%;
+
+}
+.footer-links span{
+  display: inline-block;
+
+
 }
