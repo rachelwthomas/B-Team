@@ -5,16 +5,14 @@ let submitButton = (event) => {
 
   let answer = "Just kidding, we don't care"
 
+  // selects the message box where you put a message
   let displayResponse = document.querySelector('.message').value = answer;
 
   return displayResponse;
 
-
-  // return alert(answer);
-
-
-
 }
+
+
 
 // ************************FizzBuzzDon'tWork***************************************
 
@@ -24,10 +22,6 @@ let doesNotWork = (event) => {
   fizzHead.textContent = "This doesn't even work. I'm so sorry";
 }
 
-
-
-
-// selects the message box where you put a message
 
 
 // event listener for clicking of sumbit button and fizzbutton
