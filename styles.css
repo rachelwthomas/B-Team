@@ -92,6 +92,29 @@ body {
 
 }
 
+/* ****************************FIZZBUZZBOX***************************************** */
+.fizzbuzz {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.fizzbuzz form {
+  background-color: #CCCCFF;
+
+  width: 50rem;
+  padding: 3rem 2rem;
+  margin: 5rem 10rem;
+}
+
+.fizzbuzz input {
+  width: 45rem;
+}
+
+.fizz_button {
+  padding: .2rem 1rem;
+  margin-top: 1rem;
+}
 
 /******************************************************** footer styling */
 
