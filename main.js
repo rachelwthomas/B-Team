@@ -14,6 +14,32 @@ let submitButton = (event) => {
 
 
 
+
+//
+// let submitButton2 = (event) => {
+//
+//
+//was attempting a function that would insert an image in the place of form 1 when the second form submit button was clicked
+//
+// }
+
+//function to make the first contact form dissapear when second submit button is clicked
+let hideContactForm = (event) => {
+document.querySelector(".form1").style.display = "none";
+
+
+}
+
+// event listener for clicking of sumbit button2
+let submitClick2 = document.querySelector('.button2').addEventListener("click",hideContactForm);
+
+
+
+
+
+
+
+
 // ************************FizzBuzzDon'tWork***************************************
 
 let fizzHead = document.querySelector('.fizz');
