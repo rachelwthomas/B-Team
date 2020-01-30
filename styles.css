@@ -71,7 +71,7 @@ body {
 }
 
 .message {
-  width: 50%;
+  width: 90%;
   height: 25rem;
   margin-bottom: 1rem;
 }
@@ -107,7 +107,8 @@ body {
 }
 
 .fizzbuzz input {
-  width: 45rem;
+  width: 90%;
+  margin-bottom: 1rem;
 }
 
 .fizz_button {
