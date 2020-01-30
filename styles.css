@@ -54,25 +54,24 @@ body {
 }
 
 .form {
-  width: 50rem;
-
+  width: 50%;
   background-color: #CCCCFF;
   padding: 3rem 2rem;
   margin: 5rem 10rem;
 }
 
 .name {
-  width: 25rem;
+  width: 50%;
   margin-bottom: 1rem;
 }
 
 .email {
-  width: 25rem;
+  width: 50%;
   margin-bottom: 1rem;
 }
 
 .message {
-  width: 45rem;
+  width: 50%;
   height: 25rem;
   margin-bottom: 1rem;
 }
@@ -130,9 +129,3 @@ body {
 }
 
 /******************************************************** media query for forms */
-
-@media (max-width: 1024px) {
-  .form {
-
-  }
-}
