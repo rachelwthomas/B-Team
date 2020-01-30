@@ -85,6 +85,11 @@ body {
 .submit-button {
   padding: 1rem 1rem;
 
+  font-weight: bold;
+
+  border: solid 2px #FFF;
+  border-radius: 10%;
+
 }
 
 
@@ -105,6 +110,6 @@ body {
 
 @media (max-width: 1024px) {
   .form {
-  
+
   }
 }
