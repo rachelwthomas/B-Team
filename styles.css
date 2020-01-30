@@ -58,6 +58,8 @@ body {
   background-color: #CCCCFF;
   padding: 3rem 2rem;
   margin: 5rem 10rem;
+
+  box-shadow: 5px 10px 8px #323D4B;
 }
 
 .name {
@@ -104,6 +106,10 @@ body {
   width: 50rem;
   padding: 3rem 2rem;
   margin: 5rem 10rem;
+
+  box-shadow: 5px 10px 8px #323D4B;
+
+
 }
 
 .fizzbuzz input {

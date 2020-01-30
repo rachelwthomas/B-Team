@@ -15,17 +15,11 @@ let submitButton = (event) => {
 
 
 
-//
-// let submitButton2 = (event) => {
-//
-//
-//was attempting a function that would insert an image in the place of form 1 when the second form submit button was clicked
-//
-// }
 
-//function to make the first contact form dissapear when second submit button is clicked
+
+//function to make the second contact form dissapear when second submit button is clicked
 let hideContactForm = (event) => {
-document.querySelector(".form1").style.display = "none";
+document.querySelector(".form2").style.display = "none";
 
 
 }
