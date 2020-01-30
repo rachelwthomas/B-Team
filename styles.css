@@ -111,8 +111,12 @@ body {
 }
 
 .fizz_button {
-  padding: .2rem 1rem;
-  margin-top: 1rem;
+  padding: 1rem 1rem;
+
+  font-weight: bold;
+
+  border: solid 2px #FFF;
+  border-radius: 10%;
 }
 
 /******************************************************** footer styling */
