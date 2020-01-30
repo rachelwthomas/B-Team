@@ -54,27 +54,37 @@ body {
 }
 
 .form {
-  width: 50%;
+  width: 50rem;
+
   background-color: #CCCCFF;
   padding: 3rem 2rem;
-  margin-top: 5rem;
+  margin: 5rem 10rem;
 }
 
 .name {
-  width: 50%;
+  width: 25rem;
+  margin-bottom: 1rem;
 }
 
 .email {
-  width: 50%;
+  width: 25rem;
+  margin-bottom: 1rem;
 }
 
 .message {
-  width: 50%;
-  height: 30vh;
+  width: 45rem;
+  height: 25rem;
+  margin-bottom: 1rem;
 }
 
 .response {
   height: 20px;
+
+}
+
+.submit-button {
+  padding: 1rem 1rem;
+
 }
 
 
@@ -89,4 +99,12 @@ body {
   display: inline-block;
 
 
+}
+
+/******************************************************** media query for forms */
+
+@media (max-width: 1024px) {
+  .form {
+  
+  }
 }
